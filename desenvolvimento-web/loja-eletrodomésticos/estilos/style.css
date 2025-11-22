@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* INICIO GERAL */
+table#menu{
+    background-color: red;
+    width: 100%;
+}
+table#menu td{
+    width: 25%;
+    text-align: center;
+
+}
+table#menu a{
+    color: white;
+}
+table#menu img{
+    width: 70px;
+}
+
+div > img{ /*Formas de Pagamento*/
+    height: 35px;
+    margin: 0px 8px;
+}
+
+h4{
+    color: red;
+}
+/* FIM GERAL */
+
+/* INICIO PÁG. PRODUTOS */
+table#produtos{
+    width: 100%;
+    border: 0px;
+}
+table#produtos td#categorias{
+    width: 20%;
+    vertical-align: top;
+}
+
+.produto{
+    width: 20%;
+    text-align: center;
+    vertical-align: bottom;
+}
+.produto p.nomep{
+    font-size: .9em;
+}
+.produto p.voficial{
+    font-size: .9em;
+    text-decoration: line-through;
+
+    margin: 0px;
+    padding: 0px auto;
+}
+.produto p.vdesc{
+    margin: 0px;
+    padding: 0px auto;
+    font-size: 1.2em;
+    color: red;
+}
+/* FIM PÁG. PRODUTOS */
+
+/* INICIO PÁG. LOJA */
+#lojas{
+    width: 100%;
+    border: 0px;
+    padding: 20px;
+}
+#lojas td{
+    width: 33%;
+}
+/* FIM PÁG. LOJA */
+
+/* INICIO PÁG. CONTATOS */
+#contatos{
+    width: 100%;
+    border: 0px;
+    padding: 20px;
+}
+#contatos td.meio{
+    width: 50%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/* FIM PÁG. CONTATOS */
