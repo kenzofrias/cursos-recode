@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+header > nav > a{
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+header > nav > a:hover{
+    color: rgb(204, 204, 204);
+}
+header > div > a > img{
+    width: 50px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+footer > div > img{
+    height: 35px;
+    margin: 5px 10px;
+}
+footer > p{
+    font-style: italic;
+    margin: 30px;
+}
+footer > h4{
+    color: red;
+    margin: 10px;
+}
