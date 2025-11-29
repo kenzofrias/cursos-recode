@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <form>
+            <div class="container">
+                <div class="mb-3">
+                    <label for="inome" class="form-label">Nome</label>
+                    <input type="text" id="inome" class="form-control border-primary" placeholder="Primeiro nome"></label>
+                </div>
+
+                <div class="mb-3">
+                    <label for="isob" class="form-label">Sobrenome</label>
+                    <input type="text" id="isob" class="form-control border-primary" placeholder="Sobrenome">
+                </div>
+
+                <div class=" mb-3">
+                    <label for="iemail" class="form-label">Endereço de e-mail</label>
+                    <div class="input-group">
+                        <input type="email" id="iemail" class="form-control border-primary" placeholder="nome@exemplo.com">
+                        <span class="input-group-text border-primary">@</span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="isenha" class="form-label">Senha</label>
+                    <input type="password" id="isenha" placeholder="Sua senha" class="form-control border-primary">
+                    <small class="form-text">Sua senha deve conter entre 8-15 caracteres e não poder conter espaços, caracteres especiais ou emojis, em exceção ao "-" e "_".</small>
+                </div>
+
+                <div class="form-check form-check-inline mb-3">
+                    <input type="radio" id="imas" class="form-check-input">
+                    <label for="imas" class="form-check-label">Masculino</label>
+                </div>
+                <div class="form-check form-check-inline mb-3">
+                    <input type="radio" id="ifem" class="form-check-input">
+                    <label for="ifem" class="form-check-label">Feminino</label>
+                </div>
+                <div class="form-check form-check-inline mb-3">
+                    <input type="radio" id="iind" class="form-check-input">
+                    <label for="iind" class="form-check-label">Prefiro não informar</label>
+                </div>
+
+                <div class="mb-3">
+                    <label for="iuf" class="form-label">Escolha seu Estado</label>
+                    <select id="iuf" class="form-select">
+                        <option selected>-- Informe seu Estado --</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="PA">Pará</option>
+                        <option value="PA">Acre</option>
+                        <option value="PA">Amapá</option>
+                        <option value="PA">Roraima</option>
+                    </select>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" id="icheckt" class="form-check-input" required>
+                    <label for="icheckt" class="form-check-label text-primary">Li e aceito todos os termos</label>
+                </div>
+                <div class="form-check mb-3">
+                    <input type="checkbox" id="icheckc" class="form-check-input">
+                    <label for="icheckc" class="form-check-label text-primary">Manter-me conectado sempre</label>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-primary mr-3">Enviar</button>
+                    <button type="reset" class="btn btn-outline-danger float-right">Limpar</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
